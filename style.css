@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+.web {
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  padding: 10px 10%;
+
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  background-image: url("./media/b.jpg");
+}
+.logo {
+  width: 50px;
+}
+nav {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li {
+  display: inline;
+  list-style: none;
+  margin: 10px 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #101111;
+  font-weight: 400;
+}
+.login-btn {
+  text-decoration: none;
+  color: #0da7ee;
+  margin-right: 15px;
+  font-weight: 400;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 40px;
+  color: #fff;
+  background-image: linear-gradient(45deg, #dfdfdf, #703333);
+  font-size: 14px;
+  border-radius: 30px;
+  border-top-right-radius: 0;
+  transition: 0.5s;
+}
+.content {
+  margin-top: 10px;
+  max-width: 600px;
+}
+.content h1 {
+  font-size: 70px;
+  color: #222;
+}
+.content p {
+  margin: 10px 0 30px;
+  color: #333;
+}
+.content .btn {
+  padding: 15px 80px;
+  font-size: 16px;
+}
+.btn:hover {
+  border-top-right-radius: 30px;
+}
